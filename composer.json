@@ -1,0 +1,22 @@
+{
+    "name": "amin/7todo",
+    "description": "simple todo list project",
+    "type": "project",
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Amin\\7todo\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "amin jalili",
+            "email": "amin.jalili137819@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "hekmatinasser/verta": "^2.1",
+      "ext-pdo": "*"
+    }
+}
